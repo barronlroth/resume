@@ -1,0 +1,266 @@
+% resume.tex
+% vim:set ft=tex spell:
+
+\documentclass[10pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{mdwlist}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{tgpagella}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+% indentsection style, used for sections that aren't already in lists
+% that need indentation to the level of all text in the document
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{-0.5#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% format two pieces of text, one left aligned and one right aligned
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+	#1 &
+	#2 \\
+\end{tabular*}}
+
+% make "C++" look pretty when used in text by touching up the plus signs
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
+
+% and the actual content starts here
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Barron Roth}}
+
+broth@bu.edu\ \ \textbullet
+\ \ @iamBarronRoth\ \ \textbullet
+\ \ BarronRoth.com\ \ \textbullet
+\ \ linkedin.com/in/barronlroth
+
+\end{center}
+
+\hrule
+\vspace{-0.9em}
+
+\subsection*{Education}
+
+\begin{itemize}
+	\parskip=0.001em
+	
+	\item 
+	\headerrow
+	{\textbf{Boston University}}
+	{\textbf{Boston, MA}}
+	\headerrow
+	{\emph{College of Engineering, B.S. Computer Engineering, Concn. Technology Innovation}}
+	{\emph{Dec. 2016}}
+	
+	\item 
+	\headerrow
+	{\textbf{Pine Crest School}}
+	{\textbf{Fort Lauderdale, FL}}
+	\headerrow
+	{\emph{ACT: 33 (99\%ile), Honor Roll, National Merit Commended \& Hispanic Recognition Program Scholar}}
+	{\emph{Class of 2012}}
+	
+\end{itemize}
+
+
+\hrule
+\vspace{-0.9em}
+
+
+\subsection*{Experience}
+
+\begin{itemize}
+	\parskip=0.1em
+	
+	\item
+	\headerrow
+	{\textbf{Tablelist}}
+	{\textbf{Boston, MA}}
+	\\
+	\headerrow
+	{\emph{Software Engineering Intern}}
+	{\emph{Summer 2015}}
+	\begin{itemize*}
+		\item \textit{Opentable for nightlife.} Focusing on improving UI/UX for Tablelist iOS application using \textit{Swift}.
+		
+	\end{itemize*}
+	
+	
+	
+	\item
+	\headerrow
+	{\textbf{Advanced Micro Devices (AMD)}}
+	{\textbf{Austin, TX}}
+	\\
+	\headerrow
+	{\emph{Semi-Custom Product Development Co-Op Engineer}}
+	{\emph{Spring 2014}}
+	\begin{itemize*}
+		\item Tested compatibility, compliance, and coverage of semi-custom APUs from product definition through qualification \& into high volume production by developing product-specific system test software \& diagnostics in Perl.
+		\item Worked with customer (Microsoft) to identify, resolve and document processor architectural performance issues.
+		
+	\end{itemize*}
+	
+	\item
+	\headerrow
+	{\textbf{Downtyme}}
+	{\textbf{www.Downty.me}}
+	\\
+	\headerrow
+	{\emph{Co-Founder \& Program Manager}}
+	{\emph{Nov. 2013 -- Present}}
+	\begin{itemize*}
+		\item Conceived idea and manage development team on technical vision, design, and implementation of iOS \& Android application aimed at merging schedules in the cloud to connect people in real life. \textit{Funded by Rough Draft VC}.
+		\item Leading product design team on native iOS \& Android redesign based on beta tester UI/UX feedback.
+	\end{itemize*}
+	
+	%Luxe St
+	\item
+	\headerrow
+	{\textbf{Luxe St.}}
+	{\textbf{www.Luxe-St.com}}
+	\\
+	\headerrow
+	{\emph{Product Design Lead}}
+	{\emph{April 2014 -- Present}}
+	\begin{itemize*}
+		\item Developed UI, UX, aesthetic \& branding materials for high-end fashion e-commerce iOS app.		
+	\end{itemize*}
+
+	\item
+	\headerrow
+	{\textbf{Barron Roth Photography}}
+	{\emph{Sept. 2011 -- Present}}
+	
+	\begin{itemize*}
+		\item Photographed for a variety of clientele from Ariana Grande to Cushman+Wakefield Commercial Real Estate.
+		\item Organically obtained 10,000+ followers across social media platforms for marketing \& business promotion.
+		
+	\end{itemize*}
+	
+	
+\end{itemize}
+
+\hrule
+\vspace{-0.9em}
+\subsection*{Activities}
+
+\begin{itemize}
+	\parskip=0.1em
+	
+	\item
+	\headerrow
+	{\textbf{Boston University Student Government}}
+	{\textbf{BUStudentGov.com}}
+	\\
+	\headerrow
+	{\emph{Student Body Vice President}}
+	{\emph{April 2015 -- Present}}
+	\begin{itemize*}
+		\item Created and maintained a professional online presence for the chapter by creating the website SHPEBU.com
+		\item Attended SHPE 2013 National Conference in Indianapolis, Indiana to represent our chapter on a national level
+		
+	\end{itemize*}	
+	
+	
+	
+	\item
+	\headerrow
+	{\textbf{Society of Hispanic Professional Engineers (SHPE)}}
+	{\textbf{SHPEBU.com}}
+	\\
+	\headerrow
+	{\emph{President}}
+	{\emph{Fall 2012 -- Present}}
+	\begin{itemize*}
+		\item Created and maintained a professional online presence for the chapter by creating the website SHPEBU.com
+		\item Attended SHPE 2013 National Conference in Indianapolis, Indiana to represent our chapter on a national level
+		
+	\end{itemize*}
+	
+	\item
+	\headerrow
+	{\textbf{BU Entrepreneurship Club}}
+	{\textbf{make.bu.edu}}
+	\\
+	\headerrow
+	{\emph{Mentor -- Startup Challenge}}
+	{\emph{October 2013 -- Present}}
+	\begin{itemize*}
+		\item Created organization where students can educate one another in topic-specific discussions after compiling club members’ educational background and desires	
+		\item Currently organizing \emph{MakeBU}-– Boston University’s first regional hackathon scheduled to take place in Fall 2014
+	\end{itemize*}	
+		
+	
+	\item
+	\headerrow
+		{\textbf{Computer Engineering Club (Make\_BU)}}
+		{\textbf{make.bu.edu}}
+	\\
+	\headerrow
+		{\emph{Cofounder}}
+		{\emph{October 2013 -- Present}}
+	\begin{itemize*}
+		\item Cofounded BU's first organization dedicated to hackathons, hosting a weekly hack night for CS practice.
+	\end{itemize*}
+	
+	
+\end{itemize}
+
+
+\hrule
+\vspace{-0.9em}
+\subsection*{Honors \& Recognitions}
+
+\begin{itemize}
+	\parskip=0.001em
+	
+	\item
+	\headerrow
+	{Downtyme -- 1st Place: BU ENG Imagineering Competition; BU Entrepreneurship Startup Competition}
+	{\emph{Oct. 2014}}
+	
+	\item
+	\headerrow
+	{Dean's Host -- Boston University College of Engineering. Selected among several hundred applicants.}
+	{\emph{Spring 2013}}
+
+\end{itemize}
+
+
+\hrule
+\vspace{-0.8em}
+
+\subsection*{Technical Skills}
+
+\begin{indentsection}{\parindent}
+	\hyphenpenalty=1000
+	\begin{description*}
+		\item[Languages:]
+		Swift, Python, \CPP, HTML \& CSS, \LaTeX, Perl, MATLAB
+		\item[Software:]
+		Adobe Creative Cloud, Sketch3, Final Cut Pro
+	\end{description*}
+\end{indentsection}
+
+	
+
+
+
+\end{document}
