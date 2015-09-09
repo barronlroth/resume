@@ -11,12 +11,14 @@
 \pagestyle{empty}
 \setlength{\tabcolsep}{0em}
 
+% Font Awesome for icons in Latex / PDFLatex
+
 % indentsection style, used for sections that aren't already in lists
 % that need indentation to the level of all text in the document
 \newenvironment{indentsection}[1]%
 {\begin{list}{}%
 	{\setlength{\leftmargin}{#1}}%
-	\item[]%
+	\item[]%college
 }
 {\end{list}}
 
@@ -24,7 +26,7 @@
 \newenvironment{unindentsection}[1]%
 {\begin{list}{}%
 	{\setlength{\leftmargin}{-0.5#1}}%
-	\item[]%
+	\item[]
 }
 {\end{list}}
 
@@ -38,6 +40,10 @@
 % make "C++" look pretty when used in text by touching up the plus signs
 \newcommand{\CPP}
 {C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
+
+% make functional tabs
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\tab}[1]{\hspace{.11\textwidth}\rlap{#1}}
 
 % and the actual content starts here
 \begin{document}
@@ -65,7 +71,7 @@ broth@bu.edu\ \ \textbullet
 	{\textbf{Boston University}}
 	{\textbf{Boston, MA}}
 	\headerrow
-	{\emph{College of Engineering, B.S. Computer Engineering, Concn. Technology Innovation}}
+	{\emph{College of Engineering, B.Sc. Computer Engineering, Concn. Technology Innovation}}
 	{\emph{Dec. 2016}}
 	
 	\item 
@@ -97,11 +103,10 @@ broth@bu.edu\ \ \textbullet
 	{\emph{Software Engineering Intern}}
 	{\emph{Summer 2015}}
 	\begin{itemize*}
-		\item \textit{dogs for nightlife.} Focusing on improving UI/UX for Tablelist iOS application using \textit{Swift}.
+		\item Developed a more informative event system for customer-facing iOS application using \textit{Swift}.
+		\item Initiated migration of back-end from Core Data framework to Realm using Swift 2.0.
 		
 	\end{itemize*}
-	
-	
 	
 	\item
 	\headerrow
@@ -112,46 +117,46 @@ broth@bu.edu\ \ \textbullet
 	{\emph{Semi-Custom Product Development Co-Op Engineer}}
 	{\emph{Spring 2014}}
 	\begin{itemize*}
-		\item Tested compatibility, compliance, and coverage of semi-custom APUs from product definition through qualification \& into high volume production by developing product-specific system test software \& diagnostics in Perl.
-		\item Worked with customer (Microsoft) to identify, resolve and document processor architectural performance issues.
+		\item Tested coverage \& compliance of semi-custom APUs using Automated Test Equipment at extreme conditions.
+		\item Developed scripting program using \textit{Perl} to facilitate big data aggregation \& determine trends in testing results.
+		\item Participated in meetings with customer (Microsoft) to identify \& document APU architectural performance issues.
 		
 	\end{itemize*}
 	
 	\item
 	\headerrow
 	{\textbf{Downtyme}}
-	{\textbf{www.Downty.me}}
+	{\texttt{downty.me/}}
 	\\
 	\headerrow
 	{\emph{Co-Founder \& Program Manager}}
 	{\emph{Nov. 2013 -- Present}}
 	\begin{itemize*}
-		\item Conceived idea and manage development team on technical vision, design, and implementation of iOS \& Android application aimed at merging schedules in the cloud to connect people in real life. \textit{Funded by Rough Draft VC}.
-		\item Leading product design team on native iOS \& Android redesign based on beta tester UI/UX feedback.
+		\item Developed concept for iOS \& Android social-productivity app and led product team through
+		\item Co-founded corporation to eventual funding by Rough Draft Ventures.
 	\end{itemize*}
 	
 	%Luxe St
 	\item
 	\headerrow
 	{\textbf{Luxe St.}}
-	{\textbf{www.Luxe-St.com}}
+	{\texttt{luxe-st.com/}}
 	\\
 	\headerrow
 	{\emph{Product Design Lead}}
 	{\emph{April 2014 -- Present}}
 	\begin{itemize*}
-		\item Developed UI, UX, aesthetic \& branding materials for high-end fashion e-commerce iOS app.		
+		\item Developed UI, UX, aesthetic \& branding materials for high-end fashion e-commerce iOS app. 		
 	\end{itemize*}
 
 	\item
 	\headerrow
 	{\textbf{Barron Roth Photography}}
-	{\emph{Sept. 2011 -- Present}}
+	{\texttt{barronroth.photography/}}
 	
 	\begin{itemize*}
-		\item Photographed for a variety of clientele from Ariana Grande to Cushman+Wakefield Commercial Real Estate.
-		\item Organically obtained 10,000+ followers across social media platforms for marketing \& business promotion.
-		
+		\item Photographer for a variety of clientele from Ariana Grande to Cushman \& Wakefield Commercial Real Estate.
+		\item Organically acquired over 10,000 followers on Facebook \& Instagram platforms for business promotion.		
 	\end{itemize*}
 	
 	
@@ -167,7 +172,7 @@ broth@bu.edu\ \ \textbullet
 	\item
 	\headerrow
 	{\textbf{Boston University Student Government}}
-	{\textbf{BUStudentGov.com}}
+	{\texttt{BUStudentGov.com/}}
 	\\
 	\headerrow
 	{\emph{Student Body Vice President}}
@@ -183,7 +188,7 @@ broth@bu.edu\ \ \textbullet
 	\item
 	\headerrow
 	{\textbf{Society of Hispanic Professional Engineers (SHPE)}}
-	{\textbf{SHPEBU.com}}
+	{\texttt{SHPEBU.org/}}
 	\\
 	\headerrow
 	{\emph{President}}
@@ -197,13 +202,13 @@ broth@bu.edu\ \ \textbullet
 	\item
 	\headerrow
 	{\textbf{BU Entrepreneurship Club}}
-	{\textbf{make.bu.edu}}
+	{\texttt{make.bu.edu}}
 	\\
 	\headerrow
 	{\emph{Mentor -- Startup Challenge}}
 	{\emph{October 2013 -- Present}}
 	\begin{itemize*}
-		\item Created organization where students can educate one another in topic-specific discussions after compiling club members’ educational background and desires	
+		\item Served as a mentor for a team of undergraduates participating in BU E-Club's Annual Startup Challenge
 		\item Currently organizing \emph{MakeBU}-– Boston University’s first regional hackathon scheduled to take place in Fall 2014
 	\end{itemize*}	
 		
@@ -250,13 +255,15 @@ broth@bu.edu\ \ \textbullet
 
 \subsection*{Technical Skills}
 
+
+
 \begin{indentsection}{\parindent}
 	\hyphenpenalty=1000
 	\begin{description*}
-		\item[Languages:]
-		Swift, Objective-C,Python, \CPP, HTML 5 \& CSS 3, Perl, \LaTeX, MATLAB
-		\item[Software:]
-		Adobe Creative Cloud, Sketch3, Final Cut Pro
+		\item [\itab{Languages:}]
+		\tab{Swift, Objective-C, Python, C, \CPP, HTML, CSS, Perl, \LaTeX, MATLAB, Spanish}
+		\item [\itab{Software:}]
+		\tab{Sketch, Principle, Final Cut Pro, Adobe Photoshop, Lightroom, Illustrator, Premiere, After Effects}
 	\end{description*}
 \end{indentsection}
 
