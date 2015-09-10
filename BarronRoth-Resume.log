@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 SEP 2015 12:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 SEP 2015 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -495,19 +495,19 @@ File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: letterpaper
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
-* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=542.02501pt
-* \textheight=722.7pt
-* \oddsidemargin=-36.135pt
-* \evensidemargin=-36.135pt
-* \topmargin=-73.135pt
+* h-part:(L,W,R)=(28.90755pt, 539.69278pt, 28.90755pt)
+* v-part:(T,H,B)=(28.90755pt, 787.23175pt, 28.90755pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=539.69278pt
+* \textheight=787.23175pt
+* \oddsidemargin=-43.36244pt
+* \evensidemargin=-43.36244pt
+* \topmargin=-80.36244pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -543,13 +543,13 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 (./BarronRoth-Resume.aux) ) 
 Here is how much of TeX's memory you used:
- 2159 strings out of 493089
- 29721 string characters out of 6134842
- 93169 words of memory out of 5000000
- 5638 multiletter control sequences out of 15000+600000
+ 2158 strings out of 493089
+ 29697 string characters out of 6134842
+ 94247 words of memory out of 5000000
+ 5637 multiletter control sequences out of 15000+600000
  33954 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,32p,279b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,6n,32p,279b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/
 cm-super/cm-super-t1.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/te
 x-gyre/q-ec.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-
@@ -557,7 +557,7 @@ ts1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qplb.pf
 b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on BarronRoth-Resume.pdf (2 pages, 121256 bytes).
+Output written on BarronRoth-Resume.pdf (2 pages, 121133 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
