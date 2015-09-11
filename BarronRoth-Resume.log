@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 SEP 2015 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 SEP 2015 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -495,19 +495,19 @@ File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: letterpaper
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
-* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=542.02501pt
-* \textheight=722.7pt
-* \oddsidemargin=-36.135pt
-* \evensidemargin=-36.135pt
-* \topmargin=-73.135pt
+* h-part:(L,W,R)=(18.06749pt, 561.3729pt, 18.06749pt)
+* v-part:(T,H,B)=(18.06749pt, 808.91187pt, 18.06749pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=561.3729pt
+* \textheight=808.91187pt
+* \oddsidemargin=-54.2025pt
+* \evensidemargin=-54.2025pt
+* \topmargin=-91.2025pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -540,13 +540,13 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 132.
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./BarronRoth-Resume.aux) ) 
 Here is how much of TeX's memory you used:
- 2159 strings out of 493089
- 29721 string characters out of 6134842
- 93169 words of memory out of 5000000
- 5638 multiletter control sequences out of 15000+600000
+ 2158 strings out of 493089
+ 29697 string characters out of 6134842
+ 94244 words of memory out of 5000000
+ 5637 multiletter control sequences out of 15000+600000
  33954 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,6n,32p,279b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -557,10 +557,10 @@ ts1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qplb.pf
 b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on BarronRoth-Resume.pdf (2 pages, 121256 bytes).
+Output written on BarronRoth-Resume.pdf (1 page, 121129 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 29 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
